@@ -21,4 +21,4 @@ Here you can choose your operating system, then download and install it by follo
 
 RStudio can be downloaded from https://rstudio.com/products/rstudio/download/
 
-More free packages can be downloaded from xxx and add to R.
+There are more free packages you can downloade from to make your RStudio more powerful.
