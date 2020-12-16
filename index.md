@@ -3,29 +3,29 @@ layout: lesson
 root: .
 # Overall title for the Lesson.
 # This should be in the form of a question if possible.
-title: "Lesson Title"
+title: "How do I use R for data analysis?"
 
 # Single Sentence purpose for this lesson.
-short-purpose: "This lesson will show you how to..."
+short-purpose: "This lesson will show you how R can be a helpful tool for your data analysis. "
 
 # Single-Sentence describing the researchers
 # who will be helped by this tutorial.
 who: "Pulse Crop Researchers focused on variation data."
 
 # A comma-separated list of maintainers for this lesson.
-maintainers: "Lacey-Anne Sanderson, Ruobin Liu"
+maintainers: "Lacey-Anne Sanderson, Derek Michael Wright, Ruobin Liu"
 
 # A short paragraph describing why we created this lesson.
 # What question is it trying to solve and why is that question important.
-why: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lacinia orci risus. Quisque condimentum nunc posuere, rutrum nunc eu, cursus enim. Nam sit amet turpis sit amet erat pulvinar consequat eget ac erat. Aliquam erat volutpat. Aenean in bibendum nibh. Proin iaculis dictum augue nec faucibus. Integer et arcu tortor. Donec at tristique eros. Integer consequat aliquet mauris, vitae imperdiet orci iaculis sit amet. Cras sit amet mollis lacus. Sed ac auctor mi, sit amet laoreet tellus. Vivamus vehicula congue velit. Cras vulputate est nec velit pretium condimentum. Vivamus eu leo sed est ullamcorper tincidunt at non dolor. Duis vestibulum pellentesque felis, at aliquam risus condimentum at."
+why: "How to manipulate and plot the collected environmental data."
 
 # A short list of items researchers will learn in this lesson.
 learn:
-- "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-- "Quisque condimentum nunc posuere, rutrum nunc eu, cursus enim."
-- "Duis vestibulum pellentesque felis, at aliquam risus condimentum at."
+- "How to download, install R and RStudio?"
+- "How to backup your collected phenotypic data regularly in KnowPulse? "
+- "How to download your data from KnowPulse at the end of the season using R-friendly headers option?"
 
-data-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lacinia orci risus. Quisque condimentum nunc posuere, rutrum nunc eu, cursus enim. Nam sit amet turpis sit amet erat pulvinar consequat eget ac erat. Aliquam erat volutpat. Aenean in bibendum nibh. Proin iaculis dictum augue nec faucibus. Integer et arcu tortor. Donec at tristique eros. Integer consequat aliquet mauris, vitae imperdiet orci iaculis sit amet. Cras sit amet mollis lacus. Sed ac auctor mi, sit amet laoreet tellus. Vivamus vehicula congue velit. Cras vulputate est nec velit pretium condimentum. Vivamus eu leo sed est ullamcorper tincidunt at non dolor. Duis vestibulum pellentesque felis, at aliquam risus condimentum at."
+data-description: "Phenotypic Data."
 ---
 
 The KnowPulse KnowledgeBase focuses on short question-based lessons to help researchers get their work done.
