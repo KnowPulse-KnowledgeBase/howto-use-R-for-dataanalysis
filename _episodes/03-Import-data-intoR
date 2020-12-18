@@ -1,0 +1,15 @@
+---
+title: "Creating an episode"
+teaching: 20
+exercises: 20
+questions:
+- "How to prepare a csv file for my raw phenotypic data?"
+- "How to read a csv file with RStudio?"
+
+objectives:
+- "Make your raw phenotypic data in a R friendly way"
+keypoints:
+- "Ensure your files contain all the required columns from template ."
+- "Save your file in csv format"
+- ""
+---
