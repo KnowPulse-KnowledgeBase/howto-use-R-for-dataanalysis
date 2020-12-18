@@ -13,3 +13,5 @@ keypoints:
 - "Save your file in csv format"
 - ""
 ---
+##
+After growing season, go back to KnowPulse to download your back-uped phenotypic data, then inport your file into Rstudio for your next step analysis. 
