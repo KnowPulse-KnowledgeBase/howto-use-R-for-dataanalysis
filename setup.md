@@ -6,7 +6,7 @@ title: "Setup"
 ![Screenshot of main code listing](/fig/howto-use-R-for-dataanalysis-4.png)
 
 ## Download R
-R is a free and open source, which can be downloaded and installed from https://www.r-project.org/
+R is a free and open source, which can be downloaded and installed from (https://www.r-project.org/)
 
 ![Screenshot of main code listing](/fig/howto-use-R-for-dataanalysis-1.png)
 
