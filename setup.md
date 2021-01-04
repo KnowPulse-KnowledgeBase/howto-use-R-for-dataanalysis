@@ -6,7 +6,7 @@ title: "Setup"
 ![Screenshot of main code listing](/fig/howto-use-R-for-dataanalysis-4.png)
 
 ## Download R
-R is a free and open source, which can be downloaded and installed from [The R Project for Statistical Computing] (https://www.r-project.org/)
+R is a free and open source, which can be downloaded and installed from https://www.r-project.org/
 
 ![Screenshot of main code listing](/fig/howto-use-R-for-dataanalysis-1.png)
 
@@ -20,7 +20,7 @@ After that, you need to choose your operating system, then download and install 
 
 ## RStudio
 
-RStudio can be downloaded from (https://rstudio.com/products/rstudio/download/)
+RStudio can be downloaded from https://rstudio.com/products/rstudio/download/
 
 There are more free packages for you to downloade from CRAN to make your RStudio more powerful.
 ![Screenshot of main code listing](/fig/howto-use-R-for-dataanalysis-3.png)
