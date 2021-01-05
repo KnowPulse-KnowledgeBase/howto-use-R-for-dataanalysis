@@ -1,4 +1,4 @@
-First thing first: tidy you data =rearrange the data in the way you want them to be 
+Tidy your data =rearrange the data in the way you want them to be 
 
 In tidy data:
 1. Each variable forms a column.
@@ -13,3 +13,5 @@ https://r4ds.had.co.nz/tidy-data.html
 
 Use package: tidyverse
 
+Data Wrangling Cheat sheet 
+https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf
