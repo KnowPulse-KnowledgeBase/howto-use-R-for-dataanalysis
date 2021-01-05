@@ -1,0 +1,17 @@
+How to run data: select the line, then click run on top right in `Editor` or control+command+enter
+
+Plot
+Ex: Temperature& Day lengths (insert picture)
+
+Bar Chats
+Ex: total precipitation
+Histogram: quantative/scaled/measured/interval/ratio level
+Allow to see: shape/gap/outliers/symmetry
+
+
+Scatter Plot
+visualizing the association between two quantative variables
+Ex: Precipitation (insert picture)
+
+OverlayingPlots
+
