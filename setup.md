@@ -18,7 +18,7 @@ After that, you need to choose your operating system, then download and install 
 ![Screenshot of main code listing](/fig/howto-use-R-for-dataanalysis-2.png)
 
 
-## RStudio
+## Download RStudio
 
 RStudio can be downloaded from https://rstudio.com/products/rstudio/download/
 
