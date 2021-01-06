@@ -16,6 +16,7 @@ keypoints:
 ##
 After growing season, go back to KnowPulse to download your back-uped phenotypic data, then inport your file into Rstudio for your next step analysis. 
 
+[GAPIT user manual]:(http://www.zzlab.net/GAPIT/gapit_help_document.pdf)
 Use the given command to input your phenotype file:
 myY <- read.csv("Data_Phenotypes.csv")
 DT::datatable(myY)
