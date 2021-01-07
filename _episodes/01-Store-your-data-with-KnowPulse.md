@@ -23,7 +23,7 @@ In these demonstration videos, you will learn the phenotypic data functionality 
 [screenshot]
 ![Screenshot of main code listing](../fig/Store-your-data-2.png)
 
-If you are already familar with the standard phenotyping procedures, you can have your raw phenotypic data backup, upload, and download from here (https://knowpulse.usask.ca/phenotypes/raw/instructions)
+If you are already familar with the standard phenotyping procedures, you can have your raw phenotypic data backup, upload, and download from [here] (https://knowpulse.usask.ca/phenotypes/raw/instructions)
 You data is kept confidential unless you publish them.  
 ![Screenshot of main code listing](../fig/Store-your-data-3.png)
 
