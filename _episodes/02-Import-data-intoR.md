@@ -1,5 +1,5 @@
 ---
-title: "Creating an episode"
+title: "Import data into R"
 teaching: 20
 exercises: 20
 questions:
