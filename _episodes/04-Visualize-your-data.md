@@ -19,6 +19,7 @@ Two ways to run your data:
 
 https://r4ds.had.co.nz/data-visualisation.html
 
+## Base plots
 Plot
 Ex: Temperature& Day lengths (insert picture)
 
@@ -34,3 +35,6 @@ Ex: Precipitation (insert picture)
 
 OverlayingPlots
 
+## ggplot2 package (additional packages ggbeeswarm & ggrepel)
+
+-better, more visually appealing plots 
