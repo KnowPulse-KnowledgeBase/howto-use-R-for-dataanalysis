@@ -16,6 +16,7 @@ keypoints:
 
 After growing season, you have your data files downloaded from KnowPulse, the next step, you want to inport your files into Rstudio for further analysis. 
 
+
 ## Step 1
 [GAPIT user manual]:(http://www.zzlab.net/GAPIT/gapit_help_document.pdf)
 Use the given command to input your phenotype file:
