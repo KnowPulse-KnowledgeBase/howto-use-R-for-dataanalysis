@@ -1,5 +1,6 @@
-Tidy your data =rearrange the data in the way you want them to be 
 
+Tidy your data =rearrange the data in the way you want them to be 
+Tidyverse Core Principles https://www.youtube.com/watch?v=MKwyauo8nSI
 In tidy data:
 1. Each variable forms a column.
 2. Each observation forms a row.
