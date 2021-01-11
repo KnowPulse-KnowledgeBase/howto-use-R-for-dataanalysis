@@ -25,8 +25,6 @@ Information can be stored in user defined objects, in multiple forms:
 
 ```diff
 -c(): a string of value'
-```
-```
 xc <- 1:10
 xc
 ```
