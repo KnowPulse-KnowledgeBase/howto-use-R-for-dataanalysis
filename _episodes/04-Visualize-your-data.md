@@ -25,7 +25,7 @@ Information can be stored in user defined objects, in multiple forms:
 
 ```diff
 
--c():a string of value'
+-c(): a string of value'
 
 xc <- 1:10
 xc
@@ -130,6 +130,20 @@ xl[[3]]
 ## 8  hh  8  2  2  3  4 40 0.9030900  512 FALSE
 ## 9  ii  9  3  1  4  5 45 0.9542425  729 FALSE
 ## 10 jj 10  3  2  5  5 50 1.0000000 1000 FALSE
+```
+Selecting data
+
+```
+xc[5] # 5th element in xc
+```
+```
+## [1] 5
+```
+```
+xd$x3[5] # 5th element in col "x3"
+```
+```
+## [1] 1
 ```
 
 Two ways to run your data: 
