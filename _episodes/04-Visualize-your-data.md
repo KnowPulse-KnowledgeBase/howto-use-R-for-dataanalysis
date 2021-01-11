@@ -130,21 +130,48 @@ xl[[3]]
 ## 8  hh  8  2  2  3  4 40 0.9030900  512 FALSE
 ## 9  ii  9  3  1  4  5 45 0.9542425  729 FALSE
 ## 10 jj 10  3  2  5  5 50 1.0000000 1000 FALSE
-```
+
 Selecting data
 
-```
+
 xc[5] # 5th element in xc
-```
-```
+
 ## [1] 5
-```
-```
+
 xd$x3[5] # 5th element in col "x3"
-```
-```
+
 ## [1] 1
+
+xd[5,"x3"] # row 5, col "x3"
+
+## [1] 1
+
+xd$x3 # all of col "x3"
+##  [1] 1 1 1 1 1 2 2 2 3 3
+
+xd[,"x3"] # all rows, col "x3"
+##  [1] 1 1 1 1 1 2 2 2 3 3
+
+xd[3,] # row 3, all cols
+##   x1 x2 x3 x4 x5 x6 x7        x8 x9  x10
+## 3 cc  3  1  1  3  2 15 0.4771213 27 TRUE
+
+xd[c(2,4),c("x4","x5")] # rows 2 & 4, cols "x4" & "x5"
+##   x4 x5
+## 2  2  2
+## 4  2  4
+
+xl[[3]]$x1 # 3rd object in the list, col "x1
+##  [1] "aa" "bb" "cc" "dd" "ee" "ff" "gg" "hh" "ii" "jj"
 ```
+## Data Formats
+
+* numeric
+* integer
+* character
+* factor
+* logical
+
 
 Two ways to run your data: 
 1. Select the line, then click run on top right in `Editor` 
