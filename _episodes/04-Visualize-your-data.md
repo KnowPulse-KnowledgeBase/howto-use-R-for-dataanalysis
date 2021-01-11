@@ -13,14 +13,37 @@ keypoints:
 - ""
 
 ---
+
+## Objects 
+
+Information can be stored in user defined objects, in multiple forms:
+
+c(): a string of values
+matrix(): a two dimensional matrix in one format
+data.frame(): a two dimensional matrix where each column can be a different format
+list():
+
+E.g. A string
+```
+xc <- 1:10
+xc
+```
+##  [1]  1  2  3  4  5  6  7  8  9 10
+ xc <- c(1,2,3,4,5,6,7,8,9,10)
+xc
 Two ways to run your data: 
 1. Select the line, then click run on top right in `Editor` 
 2. Select the line, then press control+command+enter
 
 https://r4ds.had.co.nz/data-visualisation.html
 
-## Base plots
-Plot
+## 1. Base plotting
+http://www.sthda.com/english/wiki/r-base-graphs
+https://bookdown.org/rdpeng/exdata/the-base-plotting-system-1.html
+
+## 1.1 Basic scatter plot
+Code:
+
 Ex: Temperature& Day lengths (insert picture)
 
 Bar Chats
