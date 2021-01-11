@@ -18,9 +18,7 @@ keypoints:
 
 Information can be stored in user defined objects, in multiple forms:
 
-⋅⋅*c(): a string of value'
-⋅⋅* matrix(): a two dimensional matrix in one format
-⋅⋅* data.frame(): a two dimensional matrix where each column can be a different format
+⋅⋅* c(): a string of value ⋅⋅* matrix(): a two dimensional matrix in one format ⋅⋅* data.frame(): a two dimensional matrix where each column can be a different format
 ⋅⋅* list():
 
 ```diff
