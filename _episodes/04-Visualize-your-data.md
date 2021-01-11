@@ -25,10 +25,11 @@ Information can be stored in user defined objects, in multiple forms:
 
 ```diff
 -c(): a string of value'
+
 ```
 xc <- 1:10
 xc
-
+```
 ##  [1]  1  2  3  4  5  6  7  8  9 10
  xc <- c(1,2,3,4,5,6,7,8,9,10)
 xc
