@@ -1,3 +1,18 @@
+---
+title: "Tidy data"
+teaching: 20
+exercises: 20
+questions:
+- "How to prepare a csv file for my raw phenotypic data?"
+- "How to read a csv file with RStudio?"
+
+objectives:
+- "Make your raw phenotypic data in a R friendly way"
+keypoints:
+- "Ensure your files contain all the required columns from template ."
+- "Save your file in csv format"
+- ""
+---
 
 Tidy your data =rearrange the data in the way you want them to be 
 Tidyverse Core Principles https://www.youtube.com/watch?v=MKwyauo8nSI
