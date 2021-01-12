@@ -598,7 +598,103 @@ mp + geom_point()
 ```
 ![Screenshot of main code listing](../fig/Visualize-your-data-17.png)
 
+```
+mp + geom_point(aes(color = x3, shape = x3), size = 4)
+```
 (https://www.statsandr.com/blog/graphics-in-r-with-ggplot2/)
 (https://derekmichaelwright.github.io/htmls/academic/envdata.html#)
  
+ 
+![Screenshot of main code listing](../fig/Visualize-your-data-18.png)
 
+```
+mp + geom_line(size = 2)
+```
+![Screenshot of main code listing](../fig/Visualize-your-data-19.png)
+
+```
+mp + geom_line(aes(color = x3), size = 2)
+```
+![Screenshot of main code listing](../fig/Visualize-your-data-20.png)
+
+```
+mp + geom_smooth(method = "loess")
+```
+
+![Screenshot of main code listing](../fig/Visualize-your-data-21.png)
+
+```
+mp + geom_smooth(method = "lm")
+```
+![Screenshot of main code listing](../fig/Visualize-your-data-22.png)
+
+```
+xx <- data.frame(data = c(rnorm(50, mean = 40, sd = 10),
+                          rnorm(50, mean = 60, sd = 5)),
+                 group = factor(rep(1:2, each = 50)),
+                 label = c("Label1", rep(NA, 49), "Label2", rep(NA, 49)))
+mp <- ggplot(xx, aes(x = data, fill = group))
+mp + geom_histogram(color = "black")
+```
+
+![Screenshot of main code listing](../fig/Visualize-your-data-23.png)
+
+```
+mp + geom_histogram(color = "black", position = "dodge")
+```
+![Screenshot of main code listing](../fig/Visualize-your-data-24.png)
+
+```
+mp1 <- mp + geom_histogram(color = "black") + facet_grid(group~.)
+mp1
+```
+![Screenshot of main code listing](../fig/Visualize-your-data-25.png)
+
+```
+mp + geom_density(alpha = 0.5)
+```
+![Screenshot of main code listing](../fig/Visualize-your-data-26.png)
+
+```
+mp <- ggplot(xx, aes(x = group, y = data, fill = group))
+mp + geom_boxplot(color = "black")
+```
+![Screenshot of main code listing](../fig/Visualize-your-data-27.png)
+
+```
+mp + geom_boxplot() + geom_point()
+```
+
+![Screenshot of main code listing](../fig/Visualize-your-data-28.png)
+
+```
+mp + geom_violin() + geom_boxplot(width = 0.1, fill = "white")
+```
+![Screenshot of main code listing](../fig/Visualize-your-data-29.png)
+
+```
+library(ggbeeswarm)
+mp + geom_quasirandom()
+```
+* Make sure your have ggbeeswarm package installed 
+![Screenshot of main code listing](../fig/Visualize-your-data-30.png)
+
+```
+mp + geom_quasirandom(aes(shape = group))
+```
+![Screenshot of main code listing](../fig/Visualize-your-data-31.png)
+
+```
+mp2 <- mp + geom_violin() + 
+  geom_boxplot(width = 0.1, fill = "white") +
+  geom_beeswarm(alpha = 0.5)
+library(ggrepel)
+mp2 + geom_text_repel(aes(label = label), nudge_x = 0.4)
+```
+![Screenshot of main code listing](../fig/Visualize-your-data-32.png)
+```
+library(ggpubr)
+ggarrange(mp1, mp2, ncol = 2, widths = c(2,1),
+          common.legend = T, legend = "bottom")
+```
+![Screenshot of main code listing](../fig/Visualize-your-data-33.png)
