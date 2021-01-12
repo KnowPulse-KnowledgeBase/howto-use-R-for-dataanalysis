@@ -600,9 +600,5 @@ mp + geom_point()
 
 (https://www.statsandr.com/blog/graphics-in-r-with-ggplot2/)
 (https://derekmichaelwright.github.io/htmls/academic/envdata.html#)
-## Environmental Data Vignette
-Examples of how to manipulate and plot the environmenal data for AGILE project 
+ 
 
-## Step 1 Prpare the data 
-## Step 2 Summarize data
-## Step 3 Plot data
