@@ -14,16 +14,33 @@ keypoints:
 
 ---
 
-## Basic grahics
+## Basic Grahics
 1. Basic X-Y plotting
 We will start with some basic plotting using the base function `plot()`
 
 ### Load a data frame into R
+```
+xd <- data.frame(
+  x1 = c("aa","bb","cc","dd","ee",
+         "ff","gg","hh","ii","jj"),
+  x2 = 1:10,
+  x3 = c(1,1,1,1,1,2,2,2,3,3),
+  x4 = rep(c(1,2), times = 5),
+  x5 = rep(1:5, times = 2),
+  x6 = rep(1:5, each = 2),
+  x7 = seq(5, 50, by = 5),
+  x8 = log10(1:10),
+  x9 = (1:10)^3,
+  x10 = c(T,T,T,F,F,T,T,F,F,F)
+)
+xd
+```
 ![Screenshot of main code listing](../fig/Visualize-your-data-1.png)
 
+### Basic Scatter Plot
 
+### A basic scatter plot
 ```
-# A basic scatter plot
 plot(x = xd$x8, y = xd$x9)
 ```
 ![Screenshot of main code listing](../fig/Visualize-your-data-2.png)
