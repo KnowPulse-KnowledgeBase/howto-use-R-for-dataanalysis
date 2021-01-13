@@ -6,7 +6,7 @@ questions:
 - "How to visualise my data?"
 
 objectives:
-- "Visualise your data using xxx"
+- "Visualise your data with Baseplotting"
 keypoints:
 - ""
 - ""
@@ -39,8 +39,9 @@ xd
 
 ### Basic Scatter Plot
 
-### A basic scatter plot
+
 ```
+A basic scatter plot
 plot(x = xd$x8, y = xd$x9)
 ```
 ![Screenshot of main code listing](../fig/Visualize-your-data-2.png)
@@ -162,7 +163,7 @@ plot(x = nd)
 ```
 ![Screenshot of main code listing](../fig/Visualize-your-data-10.png)
 
-## Histogram
+### Histogram
 
 ```
 hist(x = nd)
@@ -179,6 +180,7 @@ plot(x = density(nd))
 ```
 ![Screenshot of main code listing](../fig/Visualize-your-data-13.png)
 
+### Boxplot
 ```
 boxplot(x = nd)
 ```
@@ -188,5 +190,3 @@ boxplot(x = nd)
 boxplot(x = nd, horizontal = T)
 ```
 ![Screenshot of main code listing](../fig/Visualize-your-data-15.png)
-
-## 1.1 Basic scatter plot
