@@ -3,10 +3,10 @@ title: "Data Objects and Data Formats"
 teaching: 20
 exercises: 20
 questions:
-- "How to visualise my data?"
+- "How to define and store my data?"
 
 objectives:
-- "Visualise your data using xxx"
+- "Understand multiple forms of data"
 keypoints:
 - ""
 - ""
