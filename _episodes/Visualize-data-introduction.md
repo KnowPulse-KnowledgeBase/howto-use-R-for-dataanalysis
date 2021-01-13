@@ -18,7 +18,7 @@ keypoints:
 1. Basic X-Y plotting
 We will start with some basic plotting using the base function `plot()`
 
--c() Load a data frame into R
+### Load a data frame into R
 ![Screenshot of main code listing](../fig/Visualize-your-data-1.png)
 
 
