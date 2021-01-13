@@ -35,7 +35,7 @@ Data Wrangling Cheat sheet
 https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf
 ```
 
-Useful Resources 
+## Useful Resources 
 https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html
 
 https://r4ds.had.co.nz/tidy-data.html
