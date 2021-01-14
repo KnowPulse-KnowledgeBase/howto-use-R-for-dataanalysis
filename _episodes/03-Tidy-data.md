@@ -17,10 +17,14 @@ keypoints:
 
 ## Tidyverse Package
 
+
+
 *  [Intro to the Tidyverse](https://www.youtube.com/watch?v=MKwyauo8nSI)
 *  [Tidy data](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html)
 *  [Tidy data](https://r4ds.had.co.nz/tidy-data.html)
 *  [Data Wrangling Cheat sheet ](https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
+
+
 
 ### Rearrange the data in the way you want it to be 
 In tidy data:
@@ -31,7 +35,7 @@ In tidy data:
 
 * pipes operator`(%>%)` means and then
 
-```
+```{r, purl = FALSE}
 yy <- xx %>%
   group_by(Name, Location) %>%
   summarise(Mean_DTF = round(mean(DTF),1)) %>% 
