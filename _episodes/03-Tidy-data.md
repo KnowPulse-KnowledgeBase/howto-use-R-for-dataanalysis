@@ -32,7 +32,7 @@ In tidy data:
 
 
 [Data Wrangling Cheat sheet ](https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
-```
+
 * `pipes (%>%)` means and then
 
 ```
@@ -57,10 +57,12 @@ yy
 ## 8 ILL 618 AGL   Saskatoon, Canada       47  
 ## 9 Laird AGL     Saskatoon, Canada       56.8
 ```
+
 ```
 yy <- yy %>% spread(key = Location, value = Mean_DTF)
 yy
 ```
+
 ```
 ## # A tibble: 3 x 4
 ## # Groups:   Name [3]
