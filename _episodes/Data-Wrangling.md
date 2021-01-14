@@ -62,8 +62,8 @@ xx[xx$Group == "X", c("Group","Data2","NewData1")]
 ## 8     X    80       88
 ```
 
-Data wrangling with tidyverse and pipes (%>%)
-
+Data wrangling with `tidyverse` and pipes (`%>%`)
+Usefull Resource: [Intro to the Tidyverse] (https://www.youtube.com/watch?v=MKwyauo8nSI)
 ```
 library(tidyverse) # install.packages("tidyverse")
 xx <- data.frame(Group = c("X","X","Y","Y","Y","Y","Y","X","X","X")) %>%
