@@ -15,11 +15,11 @@ keypoints:
 
 ## Objects
 
-Two ways to run your data: 
+### Two ways to run your data: 
 1. Select the line, then click run on top right in `Editor` 
 2. Select the line, then press control+command+enter
 
-Information can be stored in user defined objects, in multiple forms:
+### Information can be stored in user defined objects, in multiple forms:
 
 * c(): a string of value 
 * matrix(): a two dimensional matrix in one format 
@@ -169,7 +169,7 @@ xl[[3]]$x1 # 3rd object in the list, col "x1
 ```
 ## Data Formats
 
-Data can also be saved in many formats:
+### Data can also be saved in many formats:
 * numeric
 * integer
 * character
@@ -244,7 +244,7 @@ str(xl) # list()
 ##   ..$ x10: logi [1:10] TRUE TRUE TRUE FALSE FALSE TRUE ...
 ```
 ## Packages
-Additional libraries can be installed and loaded for use.
+### Additional libraries can be installed and loaded for use.
 
 ```
 install.packages("scales")
