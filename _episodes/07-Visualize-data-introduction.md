@@ -6,7 +6,7 @@ questions:
 - "How to visualise my data?"
 
 objectives:
-- "Visualise your data with Baseplotting"
+- "Create output graphs with basic plotting"
 keypoints:
 - ""
 - ""
@@ -16,7 +16,7 @@ keypoints:
 
 ## Basic Grahics
 1. Basic X-Y plotting
-We will start with some basic plotting using the base function `plot()`
+### We will start with some basic plotting using the base function `plot()`
 
 ### Load a data frame into R
 ```
