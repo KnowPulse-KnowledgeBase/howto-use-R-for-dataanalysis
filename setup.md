@@ -24,5 +24,5 @@ Downloaded from https://rstudio.com/products/rstudio/download/
 
 ![Screenshot of main code listing](/fig/howto-use-R-for-dataanalysis-4.png)
 
-There are more free packages for you to downloade from CRAN to make your RStudio more powerful.
+### Free packages to make your RStudio more powerful
 ![Screenshot of main code listing](/fig/howto-use-R-for-dataanalysis-3.png)
