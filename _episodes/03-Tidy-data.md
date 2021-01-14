@@ -15,26 +15,6 @@ keypoints:
 - "Save your file in csv format"
 - ""
 
-## Creating objects in R
-
-```{r, echo = FALSE, purl = TRUE}
-### Creating objects in R
-```
-
-You can get output from R simply by typing math in the console:
-
-```{r, purl = FALSE}
-3 + 5
-12 / 7
-```
-
-However, to do useful and interesting things, we need to assign _values_ to
-_objects_. To create an object, we need to give it a name followed by the
-assignment operator `<-`, and the value we want to give it:
-
-```{r, purl = FALSE}
-weight_kg <- 55
-```
 ## Tidyverse Package
 
 *  [Intro to the Tidyverse](https://www.youtube.com/watch?v=MKwyauo8nSI)
