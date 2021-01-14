@@ -18,7 +18,7 @@ After that, you need to choose your operating system, then download and install 
 
 
 ## Download RStudio
-### An integrated development environment 
+### An integrated development environment, users friendly interface 
 
 Downloaded from https://rstudio.com/products/rstudio/download/
 
