@@ -20,7 +20,7 @@ After that, you need to choose your operating system, then download and install 
 ## Download RStudio
 ### An integrated development environment 
 
-RStudio can be downloaded from https://rstudio.com/products/rstudio/download/
+Downloaded from https://rstudio.com/products/rstudio/download/
 
 ![Screenshot of main code listing](/fig/howto-use-R-for-dataanalysis-4.png)
 
