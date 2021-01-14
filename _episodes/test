@@ -1,4 +1,19 @@
 ---
+title: Visualize-data-ggplot2 package and more "
+teaching: 20
+exercises: 20
+questions:
+- "How to plot data with ggplot2?"
+
+objectives:
+- "Visualise your data using xxx"
+keypoints:
+- "Remember to load your ggplot2 library before writing your code"
+- ""
+- ""
+
+---
+---
 title: "test2"
 author: "Ruobin"
 date: "1/14/2021"
