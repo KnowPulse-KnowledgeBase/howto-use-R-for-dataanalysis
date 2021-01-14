@@ -16,7 +16,7 @@ keypoints:
 
 ## ggplot2 package 
 Comprare to basic plots, ggplot2 package provides better visually appealing plots. ggplot2 package needs to be installed before use. 
-### See bottom right on your RStudio:
+### Install
 click on `Packages` tab, select on `Install`, then search `ggplo2` under Packages to install ggplots2.
 
 
