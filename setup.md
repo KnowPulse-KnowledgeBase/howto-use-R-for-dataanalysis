@@ -23,6 +23,7 @@ After that, you need to choose your operating system, then download and install 
 Downloaded from https://rstudio.com/products/rstudio/download/
 
 ![Screenshot of main code listing](/fig/howto-use-R-for-dataanalysis-4.png)
+### You can customize your pane layout and appearance from `Rstudio` -> `Preferences`
 
 ### Free packages to make your RStudio more powerful
 ![Screenshot of main code listing](/fig/howto-use-R-for-dataanalysis-3.png)
