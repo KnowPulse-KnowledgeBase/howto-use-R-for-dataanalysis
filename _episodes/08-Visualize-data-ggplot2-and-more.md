@@ -8,7 +8,7 @@ questions:
 objectives:
 - "Visualise your data using xxx"
 keypoints:
-- ""
+- "Remember to load your ggplot2 library before writing your code"
 - ""
 - ""
 
@@ -29,7 +29,7 @@ https://ggplot2.tidyverse.org/
 https://www.r-graph-gallery.com/ggplot2-package.html
 http://r-statistics.co/ggplot2-Tutorial-With-R.html
 
-### Load your `ggplot2` library
+
 ```
 library(ggplot2)
 mp <- ggplot(xd, aes(x = x8, y = x9))
