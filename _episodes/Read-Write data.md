@@ -4,7 +4,7 @@ title: "Read/Write data"
 teaching: 10
 exercises: 10
 questions:
-- "How to read my files with R?"
+- "How to bring my files in R?"
 
 objectives:
 - "Read already exist files with R "
