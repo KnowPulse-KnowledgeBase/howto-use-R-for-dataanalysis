@@ -15,9 +15,11 @@ keypoints:
 
 ## Objects
 
-### Two ways to run your data: 
-1. Select the line, then click run on top right in `Editor` 
-2. Select the line, then press control+command+enter
+### Two ways to run your code in a script: 
+1. Select the line, then hit run bottom on top right in `Editor` 
+2. 
+  * Mac's shortcut: `command`+`enter`
+  * Windows' shortcut: `control`+`enter`
 
 ### Information can be stored in user defined objects, in multiple forms:
 
