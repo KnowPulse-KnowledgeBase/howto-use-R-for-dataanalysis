@@ -18,9 +18,9 @@ keypoints:
 
 ## Tidyverse Package
 
-*  [Intro to the Tidyverse] (https://www.youtube.com/watch?v=MKwyauo8nSI)
+*  [Intro to the Tidyverse](https://www.youtube.com/watch?v=MKwyauo8nSI)
 *  [Tidy data](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html)
-*  [Tidy data] (https://r4ds.had.co.nz/tidy-data.html)
+*  [Tidy data](https://r4ds.had.co.nz/tidy-data.html)
 
 
 ### Rearrange the data in the way you want them to be 
