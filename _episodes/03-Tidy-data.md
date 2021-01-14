@@ -32,7 +32,7 @@ In tidy data:
 
 * pipes operator`(%>%)` means and then
 
-```{r, purl = FALSE}
+```
 yy <- xx %>%
   group_by(Name, Location) %>%
   summarise(Mean_DTF = round(mean(DTF),1)) %>% 
