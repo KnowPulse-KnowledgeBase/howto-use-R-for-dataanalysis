@@ -4,7 +4,7 @@ teaching: 20
 exercises: 20
 questions:
 
-```
+
 - "How to prepare a csv file for my raw phenotypic data?"
 - "How to read a csv file with RStudio?"
 
@@ -14,31 +14,26 @@ keypoints:
 - "Ensure your files contain all the required columns from template ."
 - "Save your file in csv format"
 - ""
----
 
-Tidy your data =rearrange the data in the way you want them to be 
-Tidyverse Core Principles https://www.youtube.com/watch?v=MKwyauo8nSI
+
+## Tidyverse Package
+
+*  [Intro to the Tidyverse] (https://www.youtube.com/watch?v=MKwyauo8nSI)
+*  [Tidy data](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html)
+*  [Tidy data] (https://r4ds.had.co.nz/tidy-data.html)
+
+
+### Rearrange the data in the way you want them to be 
 In tidy data:
 1. Each variable forms a column.
 2. Each observation forms a row.
 3. Each type of observational unit forms a table.
 
-Option 1: excel 
-Alternate option: R package
 
-https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html
-https://r4ds.had.co.nz/tidy-data.html
 
-Use package: tidyverse
-
-Data Wrangling Cheat sheet 
-https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf
+[Data Wrangling Cheat sheet ](https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 ```
-
-## Useful Resources 
-https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html
-
-https://r4ds.had.co.nz/tidy-data.html
+* `pipes (%>%)` means and then
 
 ```
 yy <- xx %>%
@@ -48,8 +43,7 @@ yy <- xx %>%
 yy
 ```
 
-```
-## # A tibble: 9 x 3
+```## # A tibble: 9 x 3
 ## # Groups:   Name [3]
 ##   Name          Location            Mean_DTF
 ##   <chr>         <chr>                  <dbl>
