@@ -21,9 +21,9 @@ After that, you need to choose your operating system, then download and install 
 ### An integrated development environment, users friendly interface 
 
 Downloaded from https://rstudio.com/products/rstudio/download/
-
+Customize your pane layout and appearance from `Rstudio` -> `Preferences`
 ![Screenshot of main code listing](/fig/howto-use-R-for-dataanalysis-4.png)
-You can customize your pane layout and appearance from `Rstudio` -> `Preferences`
+
 
 ## Packages
 ### Free packages to make your RStudio more powerful
