@@ -16,11 +16,11 @@ keypoints:
 
 ## Objects 
 
-Two ways to run your data: 
+### Two ways to run your data: 
 1. Select the line, then click run on top right in `Editor` 
 2. Select the line, then press control+command+enter
 
-Information can be stored in user defined objects, in multiple forms:
+### Information can be stored in user defined objects, in multiple forms:
 
 * c(): a string of value 
 * matrix(): a two dimensional matrix in one format 
@@ -170,7 +170,7 @@ xl[[3]]$x1 # 3rd object in the list, col "x1
 ```
 ## Data Formats
 
-Data can also be saved in many formats:
+### Data can also be saved in many formats:
 * numeric
 * integer
 * character
@@ -245,7 +245,7 @@ str(xl) # list()
 ##   ..$ x10: logi [1:10] TRUE TRUE TRUE FALSE FALSE TRUE ...
 ```
 ## Packages
-Additional libraries can be installed and loaded for use.
+### Additional libraries can be installed and loaded for use.
 
 ```
 install.packages("scales")
@@ -272,7 +272,7 @@ xx
 ```
 
 ## Data Wrangling
-[R for Data Science] (https://r4ds.had.co.nz/)
+Usefull Resource: [R for Data Science] (https://r4ds.had.co.nz/)
 
 ```
 xx <- data.frame(Group = c("X","X","Y","Y","Y","X","X","X","Y","Y"),
@@ -320,8 +320,8 @@ xx[xx$Group == "X", c("Group","Data2","NewData1")]
 ## 8     X    80       88
 ```
 
-Data wrangling with tidyverse and pipes (%>%)
-
+### Data wrangling with `tidyverse` and pipes (`%>%`)
+Usefull Resource:[Intro to the Tidyverse](https://www.youtube.com/watch?v=MKwyauo8nSI)
 ```
 library(tidyverse) # install.packages("tidyverse")
 xx <- data.frame(Group = c("X","X","Y","Y","Y","Y","Y","X","X","X")) %>%
@@ -404,10 +404,6 @@ xx %>% left_join(xs, by = "Group")
 ## 9      X     9    90       99     9000         60 41.83300          6000    4183.300
 ## 10     X    10   100      110    10000         60 41.83300          6000    4183.300
 ```
-
-Two ways to run your data: 
-1. Select the line, then click run on top right in `Editor` 
-2. Select the line, then press control+command+enter
 
 https://r4ds.had.co.nz/data-visualisation.html
 http://www.sthda.com/english/wiki/r-base-graphs
