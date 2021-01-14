@@ -42,8 +42,8 @@ yy <- xx %>%
   arrange(Location)
 yy
 ```
-
-```## # A tibble: 9 x 3
+```
+## # A tibble: 9 x 3
 ## # Groups:   Name [3]
 ##   Name          Location            Mean_DTF
 ##   <chr>         <chr>                  <dbl>
