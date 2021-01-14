@@ -3,7 +3,7 @@ title: Visualize-data-ggplot2 package and more "
 teaching: 20
 exercises: 20
 questions:
-- "How to visualise my data?"
+- "How to plot data with ggplot2?"
 
 objectives:
 - "Visualise your data using xxx"
