@@ -23,10 +23,10 @@ click on `Packages` tab, select on `Install`, then search `ggplo2` under Package
 ![Screenshot of main code listing](../fig/Visualize-your-data-16.png)
 
 ### Usefull Resources
-[Data Visualization with ggplot2 Cheat Sheet](https://rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
-https://ggplot2.tidyverse.org/
-https://www.r-graph-gallery.com/ggplot2-package.html
-http://r-statistics.co/ggplot2-Tutorial-With-R.html
+* [Data Visualization with ggplot2 Cheat Sheet](https://rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
+* https://ggplot2.tidyverse.org/
+* https://www.r-graph-gallery.com/ggplot2-package.html
+* http://r-statistics.co/ggplot2-Tutorial-With-R.html
 
 
 ```
