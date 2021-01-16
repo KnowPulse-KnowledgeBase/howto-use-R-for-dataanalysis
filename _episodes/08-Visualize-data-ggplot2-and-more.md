@@ -122,7 +122,7 @@ mp + geom_quasirandom()
 ```
 
 ### Additional packages such as `ggbeeswarm` and `ggrepel` also contain useful functions to add to the functionality of ggplot2
-* Make sure your have ggbeeswarm package installed 
+
 ![Screenshot of main code listing](../fig/Visualize-your-data-30.png)
 
 ```
