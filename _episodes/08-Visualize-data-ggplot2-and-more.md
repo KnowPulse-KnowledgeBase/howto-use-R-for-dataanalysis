@@ -110,7 +110,7 @@ mp + geom_boxplot() + geom_point()
 
 ![Screenshot of main code listing](../fig/Visualize-your-data-28.png)
 
-## Vilion Plot
+## Violin Plot
 ```
 mp + geom_violin() + geom_boxplot(width = 0.1, fill = "white")
 ```
