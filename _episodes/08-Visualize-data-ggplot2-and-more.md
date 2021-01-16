@@ -28,7 +28,7 @@ click on `Packages` tab, select on `Install`, then search `ggplo2` under Package
 * https://www.r-graph-gallery.com/ggplot2-package.html
 * http://r-statistics.co/ggplot2-Tutorial-With-R.html
 
-
+## Points
 ```
 library(ggplot2)
 mp <- ggplot(xd, aes(x = x8, y = x9))
@@ -45,6 +45,7 @@ mp + geom_point(aes(color = x3, shape = x3), size = 4)
  
 ![Screenshot of main code listing](../fig/Visualize-your-data-18.png)
 
+## Lines
 ```
 mp + geom_line(size = 2)
 ```
@@ -55,6 +56,7 @@ mp + geom_line(aes(color = x3), size = 2)
 ```
 ![Screenshot of main code listing](../fig/Visualize-your-data-20.png)
 
+## Smoothed Conditional Means
 ```
 mp + geom_smooth(method = "loess")
 ```
@@ -66,6 +68,7 @@ mp + geom_smooth(method = "lm")
 ```
 ![Screenshot of main code listing](../fig/Visualize-your-data-22.png)
 
+## Histogram
 ```
 xx <- data.frame(data = c(rnorm(50, mean = 40, sd = 10),
                           rnorm(50, mean = 60, sd = 5)),
@@ -88,11 +91,13 @@ mp1
 ```
 ![Screenshot of main code listing](../fig/Visualize-your-data-25.png)
 
+## Smoothed density estimates
 ```
 mp + geom_density(alpha = 0.5)
 ```
 ![Screenshot of main code listing](../fig/Visualize-your-data-26.png)
 
+## Boxplot
 ```
 mp <- ggplot(xx, aes(x = group, y = data, fill = group))
 mp + geom_boxplot(color = "black")
@@ -105,6 +110,7 @@ mp + geom_boxplot() + geom_point()
 
 ![Screenshot of main code listing](../fig/Visualize-your-data-28.png)
 
+## Vilion Plot
 ```
 mp + geom_violin() + geom_boxplot(width = 0.1, fill = "white")
 ```
@@ -114,6 +120,8 @@ mp + geom_violin() + geom_boxplot(width = 0.1, fill = "white")
 library(ggbeeswarm)
 mp + geom_quasirandom()
 ```
+
+### Additional packages such as `ggbeeswarm` and `ggrepel` also contain useful functions to add to the functionality of ggplot2
 * Make sure your have ggbeeswarm package installed 
 ![Screenshot of main code listing](../fig/Visualize-your-data-30.png)
 
@@ -139,4 +147,4 @@ ggarrange(mp1, mp2, ncol = 2, widths = c(2,1),
 
 
 
-Additional packages such as `ggbeeswarm` and `ggrepel` also contain useful functions to add to the functionality of ggplot2.
+
