@@ -14,7 +14,7 @@ keypoints:
 
 ---
 
-Welcome to KnowPulse. 
+## Welcome to KnowPulse. 
 KnowPulse can be used to store your raw phenotypic data, we highly recommand you to store your data in KnowPulse during the growing seasonmake, and do not forget to backup your data regularly. 
 
 Scroll down to the Data section, under the Phenotypic Data box, you can find [Video Demonstrations](https://knowpulse.usask.ca/node/1772530) for data uploade.
