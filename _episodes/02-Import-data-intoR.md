@@ -13,23 +13,24 @@ keypoints:
 - "Save your file in csv format"
 - ""
 ---
+## Import your .csv file to Rstudio
+After growing season, you have your data files downloaded from KnowPulse, the next step, you want to inport your .csv files into Rstudio for further analysis. 
 
-After growing season, you have your data files downloaded from KnowPulse, the next step, you want to inport your files into Rstudio for further analysis. 
+
+### Step 1
+Import your downloaded `.csv file` on bottom right panel to Rstudio, you will be able to see the URL of the file. 
+![Screenshot of main code listing](../fig/Import-data-1.png)
+
+### Step 2
+Then you can preview your data, meanwhile, more **Import Options** are available for you to rename your file, or choose which sheet you would like RStudio to view.
+![Screenshot of main code listing](../fig/Import-data-2.png)
 
 
-## Step 1
-[GAPIT user manual]:(http://www.zzlab.net/GAPIT/gapit_help_document.pdf)
-Use the given command to input your phenotype file:
-myY <- read.csv("Data_Phenotypes.csv")
-DT::datatable(myY)
+### Step 3
+It is intuitive to hit **Import** on bottom right, which is an option to import your file; as an alternate, you can also copy paste the code into the editor. 
+![Screenshot of main code listing](../fig/Import-data-3.png)
 
-Use the given command to input your genotype file:
-myG <- read.csv("Data_Genotypes.hmp.csv", header = F)
-as.tibble(myG[1:10,1:11]) # Map + marker Info
-
-Use the given command to input your covariates+kinship file:
-myCV <- read.csv("Results_Add/GAPIT.PCA.csv")
-str(myCV)
-
-myK <- read.csv("Results_Add/GAPIT.Kin.VanRaden.csv", header = F)
-str(myK)
+### Step 4
+Inside bracket besdie the `library`, **readr** is the package that is used to read your file. 
+![Screenshot of main code listing](../fig/Import-data-4.png)
+## Import your data from excel to RStudio
