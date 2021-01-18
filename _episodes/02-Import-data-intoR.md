@@ -31,6 +31,9 @@ It is intuitive to hit **Import** on bottom right, which is an option to import 
 ![Screenshot of main code listing](../fig/Import-data-3.png)
 
 ### Step 4
-Inside bracket besdie the `library`, **readr** is the package that is used to read your file. 
+Inside the bracket besdie the `library`, **readr** is the package that is used to read your file. So you want to run both lines of code.
 ![Screenshot of main code listing](../fig/Import-data-4.png)
+
+Now your file has been successfully imported to RStudio! 
+![Screenshot of main code listing](../fig/Import-data-5.png)
 ## Import your data from excel to RStudio
