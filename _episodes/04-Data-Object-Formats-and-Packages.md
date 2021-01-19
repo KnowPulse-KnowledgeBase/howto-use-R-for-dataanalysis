@@ -17,7 +17,7 @@ keypoints:
 
 ### Information can be stored in user defined objects, in multiple forms:
 
-* c(): a string of value 
+* c(): a string of values 
 * matrix(): a two dimensional matrix in one format 
 * data.frame(): a two dimensional matrix where each column can be a different format
 * list():
@@ -240,5 +240,4 @@ str(xl) # list()
 ##   ..$ x10: logi [1:10] TRUE TRUE TRUE FALSE FALSE TRUE ...
 ```
 
-```
 You can find [more packages](https://cran.r-project.org/)
