@@ -30,17 +30,16 @@ Then you can preview your data, meanwhile, more **Import Options** are available
 
 
 ### Step 3
-It is intuitive to hit **Import** on bottom right, which is an option to import your file; as an alternate, you can also copy paste the code into the editor. 
+It is intuitive to hit **Import** on button right, which is an option to import your file; as an alternate, you can also copy paste the code into the editor. 
 ![Screenshot of main code listing](../fig/Import-data-3.png)
 
 ### Step 4
 Inside the bracket besdie the `library`, **readr** is the package that is used to read your file. So you want to run both lines of code.
 
 * Two ways to run your code in a script: 
-1. Select the line, then hit run bottom on top right in `Editor` 
-2. 
-  * Mac's shortcut: `command`+`enter`
-  * Windows' shortcut: `control`+`enter`
+1. Select the line, then hit run button on top right in `Editor` 
+2. * Mac's shortcut: `command`+`enter`
+   * Windows' shortcut: `control`+`enter`
 ![Screenshot of main code listing](../fig/Import-data-4.png)
 
 Right now your file has been successfully imported to RStudio, you can continue on your data analysis. 
