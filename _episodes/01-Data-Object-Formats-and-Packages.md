@@ -276,5 +276,3 @@ str(xl) # list()
 ##   ..$ x9 : num [1:10] 1 8 27 64 125 216 343 512 729 1000
 ##   ..$ x10: logi [1:10] TRUE TRUE TRUE FALSE FALSE TRUE ...
 ```
-
-You can find [more packages](https://cran.r-project.org/)
