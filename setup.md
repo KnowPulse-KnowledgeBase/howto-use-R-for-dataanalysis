@@ -5,7 +5,7 @@ title: "Setup"
 
 
 ## Download R
-R is a free and open-source statistical computing environment, which can be downloaded and installed from [Download R](https://www.r-project.org/)
+R is a free and open-source statistical computing environment, which can be downloaded and installed from [Download R](https://www.r-project.org/).
 
 ![Screenshot of main code listing](/fig/howto-use-R-for-dataanalysis-1.png)
 
@@ -20,7 +20,7 @@ R is a free and open-source statistical computing environment, which can be down
 ## Download RStudio
 ### An integrated development environment, users friendly interface 
 
-* [Downloaded RStudio[(https://rstudio.com/products/rstudio/download/)
+* [Downloaded RStudio](https://rstudio.com/products/rstudio/download/)
 * You can customize your Pane Layout and Appearance from `Rstudio` -> `Preferences`
 ![Screenshot of main code listing](/fig/howto-use-R-for-dataanalysis-4.png)
 
