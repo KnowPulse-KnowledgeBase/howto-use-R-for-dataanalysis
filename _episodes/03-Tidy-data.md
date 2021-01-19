@@ -20,8 +20,8 @@ In the previous episode, you have learned how to import your tidy data. But most
 
 ## Introduce to Tidyr Package
 
-*  [R for Data Science Tidy data](https://r4ds.had.co.nz/tidy-data.html)
-*  [CRAN Tidy data](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html)
+*  [Tidy data---R for Data Science ](https://r4ds.had.co.nz/tidy-data.html)
+*  [Tidy data---CRAN ](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html)
 *  [Data Wrangling Cheat sheet ](https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 
 ## Installation
