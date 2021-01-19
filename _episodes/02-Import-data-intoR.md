@@ -9,12 +9,12 @@ questions:
 objectives:
 - "Make your raw phenotypic data in a R friendly way"
 keypoints:
-- "Ensure your files contain all the required columns from template ."
+- "Ensure your files is saved as .csv before you import it into RStudio ."
 - "Save your file in csv format"
 - ""
 ---
 ## Import your .csv file to Rstudio
-After growing season, you have your data files downloaded from KnowPulse, the next step, you want to inport your .csv files into Rstudio for further analysis. 
+After growing season, you have your data files downloaded from KnowPulse as comma separated value `.csv`. The next step, you want to import your `.csv `files into Rstudio for further analysis. 
 
 
 ### Step 1
@@ -34,6 +34,6 @@ It is intuitive to hit **Import** on bottom right, which is an option to import 
 Inside the bracket besdie the `library`, **readr** is the package that is used to read your file. So you want to run both lines of code.
 ![Screenshot of main code listing](../fig/Import-data-4.png)
 
-Now your file has been successfully imported to RStudio! 
+Right now your file has been successfully imported to RStudio, you can continue on your data analysis. 
 ![Screenshot of main code listing](../fig/Import-data-5.png)
 ## Import your data from excel to RStudio
