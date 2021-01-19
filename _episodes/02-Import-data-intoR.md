@@ -41,13 +41,14 @@ Right now your file has been successfully imported to RStudio, you can continue 
 
 ## Import data with `read.csv`
 
-Let us call your file `mydata` in this case. 
+The following command can also be used to import your file. Let us call your file `mydata` in this case. 
 ```
 mydata <- read.csv(file.choose(), header=T)
 ```
 * `file.choose()` command allows a menu poping for you to choose your file instead of typing its full path to find it.
 * `header=T`euqals to `header=TRUE` means you want to keep the first row of your dataset as variable names or headers. Otherwise, you can set `header=FALSE`
 ![Screenshot of main code listing](../fig/Import-data-6.png)
+![Screenshot of main code listing](../fig/Import-data-7.png)
 For excel sheets, the package **readxl** can be used to read in sheets of data.
 
 
