@@ -13,10 +13,9 @@ keypoints:
 - "Save your file in csv format"
 - ""
 ---
-## Import your .csv file to Rstudio
+## Download your .csv from KnowPulse then import it into Rstudio
 After growing season, you have your data files downloaded from KnowPulse as comma separated value `.csv`. The next step, you want to import your `.csv `files into Rstudio for further analysis. 
 
-### Let's say your data file is downloaded from KnowPulse and named as `rawpheno_csv2021Jan18_1611003189`
 
 ### Step 1
 Import your downloaded `.csv file` on bottom right panel to Rstudio, you will be able to see the URL of the file. 
@@ -37,4 +36,26 @@ Inside the bracket besdie the `library`, **readr** is the package that is used t
 
 Right now your file has been successfully imported to RStudio, you can continue on your data analysis. 
 ![Screenshot of main code listing](../fig/Import-data-5.png)
-## Import your data from excel to RStudio
+
+
+
+## Import data with `read.csv`
+
+Let us call your file `mydata` in this case. 
+```
+mydata <- read.csv(file.choose(), header=T)
+```
+* `file.choose()` command allows a menu poping for you to choose your file instead of typing its full path to find it.
+* `header=T`euqals to `header=TRUE` means you want to keep the first row of your dataset as variable names or headers. Otherwise, you can set `header=FALSE`
+![Screenshot of main code listing](../fig/Import-data-6.png)
+For excel sheets, the package **readxl** can be used to read in sheets of data.
+
+
+## Excel sheets 
+
+
+
+```
+library(readxl) # install.packages("readxl")
+xx <- read_xlsx("Data.xlsx", sheet = "Data")
+```
