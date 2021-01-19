@@ -16,6 +16,7 @@ keypoints:
 ## Import your .csv file to Rstudio
 After growing season, you have your data files downloaded from KnowPulse as comma separated value `.csv`. The next step, you want to import your `.csv `files into Rstudio for further analysis. 
 
+### Let's say your data file is downloaded from KnowPulse and named as `rawpheno_csv2021Jan18_1611003189`
 
 ### Step 1
 Import your downloaded `.csv file` on bottom right panel to Rstudio, you will be able to see the URL of the file. 
