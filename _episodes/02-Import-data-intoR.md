@@ -14,7 +14,7 @@ objectives:
 keypoints:
 - "Ensure your files is saved as .csv before you import it into RStudio ."
 - "Save your file in csv format"
-- ""
+- "Download data at end of the season using an R-friendly header."
 ---
 ## Download your .csv from KnowPulse then import it into Rstudio
 After growing season, you have your data files downloaded from KnowPulse as comma separated value `.csv`. The next step, you want to import your `.csv `files into Rstudio for further analysis. 
