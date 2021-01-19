@@ -3,10 +3,14 @@ title: "Data Objects and Data Formats"
 teaching: 30
 exercises: 30
 questions:
-- "How to define and store my data?"
+- "How to define my data?"
+- "How to store my data in different format?"
+
 
 objectives:
-- "Understand multiple forms of data"
+- "Learning different defined objects with given examples"
+- "Learning how to save data in different formats with given examples"
+
 keypoints:
 - ""
 - ""
