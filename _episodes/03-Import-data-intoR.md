@@ -51,7 +51,7 @@ Right now, your file is successfully imported to RStudio; you can continue on yo
 
 
 
-## Option 2, Import your `read.csv` with code
+## Option 2: Import your `read.csv` with code
 
 The following command can also be used to import your file. Let us call your file `mydata` to make it simple. 
 
