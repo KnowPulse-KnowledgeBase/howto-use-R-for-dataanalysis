@@ -4,49 +4,55 @@ teaching: 20
 exercises: 20
 questions:
 
-- "How to tidy my data before analysis ?"
-- "How to ?"
+- "How to tidy my data after import?"
+
 
 objectives:
-- "Use Tidyverse package to help tidy up data"
+- "Install Tidyverse package to help tidy up data"
 keypoints:
-- "Ensure your files contain all the required columns from template ."
-- "Save your file in csv format"
-- ""
+- "Ensure your files contain all the required columns from template."
+- "Use the correct verbs from dplyr to rearrange you untidy data."
 ---
-In the previous episode, you have learnt how to import your tidy data. But sometimes, you will have to tidy up your data after you have them imported. In this episode, we are going to learn how to tidy data. 
+## Tidy your data
+In the previous episode, you have learned how to import your tidy data. But most likely, you will have to tidy up your data after import. In this episode, we are going to learn how to tidy data. 
 
+>“Tidy datasets are all alike, but every messy dataset is messy in its own way.” –– Hadley Wickham
 
-### Rearrange the data in the way you want it to be 
-In tidy data:
-1. Each variable forms a column.
-2. Each observation forms a row.
-3. Each type of observational unit forms a table.
+## Introduce to Tidyr Package
 
-## Packages
-### Additional libraries can be installed and loaded for use.
-
-
-## Tidyverse Package
-
-
-
-*  [Intro to the Tidyverse](https://www.youtube.com/watch?v=MKwyauo8nSI)
-*  [CRAN Tidy data](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html)
 *  [R for Data Science Tidy data](https://r4ds.had.co.nz/tidy-data.html)
+*  [CRAN Tidy data](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html)
 *  [Data Wrangling Cheat sheet ](https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 
+## Installation
+install.packages("tidyverse")
+library(dplyr)
 
+### tidyverse core principles:
+* Each variable forms a column.
+* Each observation forms a row.
+* Each type of observational unit forms a table.
 
-* pipes operator`(%>%)` means and then
+### 6 main verbs in dplyr
+* mutate()
+* select()
+* filter()
+* summarise()
+* arrange()
+* group up()
+
+## Example dataset: mydata
+
+* Columns:  Name, Location, and Mean_DTF
+* Rows: Each row is an observation
 
 ```
-yy <- xx %>%
+mydata %>%
   group_by(Name, Location) %>%
   summarise(Mean_DTF = round(mean(DTF),1)) %>% 
   arrange(Location)
-yy
 ```
+* pipes operator`(%>%)` means and then
 ```
 ## # A tibble: 9 x 3
 ## # Groups:   Name [3]
@@ -62,10 +68,11 @@ yy
 ## 8 ILL 618 AGL   Saskatoon, Canada       47  
 ## 9 Laird AGL     Saskatoon, Canada       56.8
 ```
+```
 
 ```
-yy <- yy %>% spread(key = Location, value = Mean_DTF)
-yy
+```
+mydata %>% spread(key = Location, value = Mean_DTF)
 ```
 
 ```
@@ -78,8 +85,7 @@ yy
 ## 3 Laird AGL     
 ```
 ```
-yy <- yy %>% gather(key = TraitName, value = Value, 2:4)
-yy
+mydata %>% gather(key = TraitName, value = Value, 2:4)
 ```
 ```
 ## # A tibble: 9 x 3
@@ -97,8 +103,7 @@ yy
 ## 9 Laird AGL     Saskatoon, Canada    56.8
 ```
 ```
-yy <- yy %>% spread(key = Name, value = Value)
-yy
+mydata %>% spread(key = Name, value = Value)
 ```
 
 ```
