@@ -114,4 +114,3 @@ mydata %>% spread(key = Name, value = Value)
 ## 2 Metaponto, Italy              134.          138.        137. 
 ## 3 Saskatoon, Canada              52.5          47          56.8
 ```
-```
