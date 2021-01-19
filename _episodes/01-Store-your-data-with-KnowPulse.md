@@ -10,7 +10,7 @@ objectives:
 keypoints:
 - "Make sure you download and use the standard data collection template for your data."
 - "Remember to backup your data with KnowPulse regularly during the growing season."
-- 
+- "Donnot forget to download your data files with an R-friendly header."
 
 ---
 
