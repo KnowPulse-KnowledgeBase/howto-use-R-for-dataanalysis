@@ -6,7 +6,7 @@ root: .
 title: "How do I use R for data analysis?"
 
 # Single Sentence purpose for this lesson.
-short-purpose: "This lesson will show you how R can be a helpful tool for your data analysis. "
+short-purpose: "This lesson will show beginner users how R can be a helpful tool for their data analysis. "
 
 # Single-Sentence describing the researchers
 # who will be helped by this tutorial.
@@ -22,8 +22,9 @@ why: "How to manipulate and plot the collected environmental data."
 # A short list of items researchers will learn in this lesson.
 learn:
 - "How to download, install R and RStudio?"
-- "How to backup your collected phenotypic data regularly in KnowPulse? "
-- "How to download your data from KnowPulse at the end of the season using R-friendly headers option?"
+- "How to backup and download your collected phenotypic from KnowPulse? "
+- "How to manipulate your data with RStudio?"
+- "How to visualize your data with RStudio?"
 
 data-description: "Phenotypic Data."
 ---
