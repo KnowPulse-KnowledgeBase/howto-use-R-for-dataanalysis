@@ -13,7 +13,7 @@ keypoints:
 - "Ensure your files contain all the required columns from template ."
 - "Save your file in csv format"
 - ""
-
+---
 In the previous episode, you have learnt how to import your tidy data. But sometimes, you will have to tidy up your data after you have them imported. In this episode, we are going to learn how to tidy data. 
 
 
@@ -22,6 +22,10 @@ In tidy data:
 1. Each variable forms a column.
 2. Each observation forms a row.
 3. Each type of observational unit forms a table.
+
+## Packages
+### Additional libraries can be installed and loaded for use.
+
 
 ## Tidyverse Package
 
