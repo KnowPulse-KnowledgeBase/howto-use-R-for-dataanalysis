@@ -25,8 +25,8 @@ In the previous episode, you have learned how to import your tidy data. But most
 *  [Data Wrangling Cheat sheet ](https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 
 ## Installation
-install.packages("tidyverse")
-library(dplyr)
+* install.packages("tidyverse")
+* library(dplyr)
 
 ### tidyverse core principles:
 * Each variable forms a column.
