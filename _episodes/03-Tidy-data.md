@@ -39,7 +39,7 @@ In the previous episode, you have learned how to import your tidy data. But most
 * filter()
 * summarise()
 * arrange()
-* group up()
+* group by()
 
 ## Example dataset: mydata
 
