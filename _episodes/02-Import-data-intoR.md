@@ -7,7 +7,10 @@ questions:
 - "How to read a csv file with RStudio?"
 
 objectives:
-- "Make your raw phenotypic data in a R friendly way"
+- "Import your .csv file using code"
+- "Import your .csv file from choosing the file"
+- "Import your excel file "
+
 keypoints:
 - "Ensure your files is saved as .csv before you import it into RStudio ."
 - "Save your file in csv format"
@@ -52,15 +55,17 @@ mydata <- read.csv(file.choose(), header=T)
 
 ### Step 2
 ![Screenshot of main code listing](../fig/Import-data-6.png)
+
+Now you can see your entire dataset showing up. 
 ![Screenshot of main code listing](../fig/Import-data-7.png)
+
+
+
+
+## If you have Excel sheets 
+
 For excel sheets, the package **readxl** can be used to read in sheets of data.
-
-
-## Excel sheets 
-
-
-
 ```
 library(readxl) # install.packages("readxl")
-xx <- read_xlsx("Data.xlsx", sheet = "Data")
+mydata <- read_xlsx("Data.xlsx", sheet = "Data")
 ```
