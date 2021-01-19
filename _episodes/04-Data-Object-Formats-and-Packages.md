@@ -239,30 +239,6 @@ str(xl) # list()
 ##   ..$ x9 : num [1:10] 1 8 27 64 125 216 343 512 729 1000
 ##   ..$ x10: logi [1:10] TRUE TRUE TRUE FALSE FALSE TRUE ...
 ```
-## Packages
-### Additional libraries can be installed and loaded for use.
 
 ```
-install.packages("scales")
-```
-```
-library(scales)
-xx <- data.frame(Values = 1:10)
-xx$Rescaled <- rescale(x = xx$Values, to = c(1,30))
-xx
-```
-
-```
-##    Values  Rescaled
-## 1       1  1.000000
-## 2       2  4.222222
-## 3       3  7.444444
-## 4       4 10.666667
-## 5       5 13.888889
-## 6       6 17.111111
-## 7       7 20.333333
-## 8       8 23.555556
-## 9       9 26.777778
-## 10     10 30.000000
-```
-You can find [more packages] (https://cran.r-project.org/)
+You can find [more packages](https://cran.r-project.org/)
