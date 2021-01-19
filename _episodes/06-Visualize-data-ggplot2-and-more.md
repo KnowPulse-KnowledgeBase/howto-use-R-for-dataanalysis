@@ -6,7 +6,7 @@ questions:
 - "How to plot data with ggplot2?"
 
 objectives:
-- "Visualise your data using xxx"
+- "Providing a step by step demonstration on how to visuallize your data with ggplot2."
 keypoints:
 - "Remember to load your ggplot2 library before writing your code"
 - ""
