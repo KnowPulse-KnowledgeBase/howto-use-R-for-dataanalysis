@@ -5,12 +5,12 @@ title: "Setup"
 
 
 ## Download R
-R is a free and open source, which can be downloaded and installed from https://www.r-project.org/
+R is a free and open-source statistical computing environment, which can be downloaded and installed from [Download R](https://www.r-project.org/)
 
 ![Screenshot of main code listing](/fig/howto-use-R-for-dataanalysis-1.png)
 
 
-* Once you land on [CRAN Mirror](https://mirror.rcg.sfu.ca/mirror/CRAN/), choose a location that is close to you, then you will be end up on The Comprehensive R Archive Network (CRAN) page. 
+* Once you land on [CRAN Mirror](https://mirror.rcg.sfu.ca/mirror/CRAN/), choose a location that is close to you, then you will end up on The Comprehensive R Archive Network (CRAN) page. 
 
 * After that, you need to choose your operating system, then download and install it by following its installation procedures.
 
@@ -20,11 +20,11 @@ R is a free and open source, which can be downloaded and installed from https://
 ## Download RStudio
 ### An integrated development environment, users friendly interface 
 
-* Downloaded from https://rstudio.com/products/rstudio/download/
-* Customize your Pane Layout and Appearance from `Rstudio` -> `Preferences`
+* [Downloaded RStudio[(https://rstudio.com/products/rstudio/download/)
+* You can customize your Pane Layout and Appearance from `Rstudio` -> `Preferences`
 ![Screenshot of main code listing](/fig/howto-use-R-for-dataanalysis-4.png)
 
 
-## Packages
-### Free packages to make your RStudio more powerful
+## Download Packages
+### Install free packages to make your RStudio more powerful
 ![Screenshot of main code listing](/fig/howto-use-R-for-dataanalysis-3.png)
