@@ -3,19 +3,16 @@ title: "Visualize data: Introduction"
 teaching: 20
 exercises: 20
 questions:
-- "How to visualise my data?"
+- "How to visualise my data with base plotting?"
 
 objectives:
-- "Create output graphs with basic plotting"
+- "Create various output graphs with basic function "
 keypoints:
-- ""
-- ""
-- ""
+- "Customize your graphs to make them more visually appealling. "
 
 ---
 
 ## Basic Grahics
-1. Basic X-Y plotting
 ### We will start with some basic plotting using the base function `plot()`
 
 ### Load a data frame into R
@@ -37,8 +34,7 @@ xd
 ```
 ![Screenshot of main code listing](../fig/Visualize-your-data-1.png)
 
-### Basic Scatter Plot
-
+### Scatter Plot
 
 ```
 A basic scatter plot
@@ -76,7 +72,7 @@ plot(x = xd$x8, y = xd$x9, type = "both")
 ```
 ![Screenshot of main code listing](../fig/Visualize-your-data-7.png)
 
-How about we now create some random and normally distributed data to make some more complicated plots:
+### Random and normally distributed data to make some more complicated plots:
 
 ```
 # 100 random uniformly distributed numbers ranging from 0 - 100
