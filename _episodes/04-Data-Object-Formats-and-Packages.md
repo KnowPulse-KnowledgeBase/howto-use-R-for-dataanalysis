@@ -1,7 +1,7 @@
 ---
 title: "Data Objects and Data Formats"
-teaching: 20
-exercises: 20
+teaching: 30
+exercises: 30
 questions:
 - "How to define and store my data?"
 
@@ -14,12 +14,6 @@ keypoints:
 ---
 
 ## Objects
-
-### Two ways to run your code in a script: 
-1. Select the line, then hit run bottom on top right in `Editor` 
-2. 
-  * Mac's shortcut: `command`+`enter`
-  * Windows' shortcut: `control`+`enter`
 
 ### Information can be stored in user defined objects, in multiple forms:
 
