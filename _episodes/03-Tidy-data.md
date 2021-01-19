@@ -15,6 +15,15 @@ keypoints:
 - "Save your file in csv format"
 - ""
 
+In the previous episode, you have learnt how to import your tidy data. But sometimes, you will have to tidy up your data after you have them imported. In this episode, we are going to learn how to tidy data. 
+
+
+### Rearrange the data in the way you want it to be 
+In tidy data:
+1. Each variable forms a column.
+2. Each observation forms a row.
+3. Each type of observational unit forms a table.
+
 ## Tidyverse Package
 
 
@@ -24,13 +33,6 @@ keypoints:
 *  [Tidy data](https://r4ds.had.co.nz/tidy-data.html)
 *  [Data Wrangling Cheat sheet ](https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 
-
-
-### Rearrange the data in the way you want it to be 
-In tidy data:
-1. Each variable forms a column.
-2. Each observation forms a row.
-3. Each type of observational unit forms a table.
 
 
 * pipes operator`(%>%)` means and then
