@@ -4,12 +4,11 @@ teaching: 20
 exercises: 20
 questions:
 
-
-- "How to ?"
+- "How to tidy my data before analysis ?"
 - "How to ?"
 
 objectives:
-- ""
+- "Use Tidyverse package to help tidy up data"
 keypoints:
 - "Ensure your files contain all the required columns from template ."
 - "Save your file in csv format"
