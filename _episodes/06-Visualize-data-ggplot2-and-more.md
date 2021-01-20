@@ -1,5 +1,5 @@
 ---
-title: Visualize-data-ggplot2 package and more "
+title: Visualize-data-ggplot2 package and more
 teaching: 20
 exercises: 20
 questions:
