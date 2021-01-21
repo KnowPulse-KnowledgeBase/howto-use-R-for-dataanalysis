@@ -1,5 +1,5 @@
 ---
-title: "Visualize data: Introduction"
+title: "Visualize data in R: Introduction"
 teaching: 20
 exercises: 20
 questions:
