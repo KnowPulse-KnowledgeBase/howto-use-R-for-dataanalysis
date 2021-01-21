@@ -59,7 +59,6 @@ DayToFlower %>%
   distinct(Name, Location, Mean_DTF)
 
 ```
-* pipes operator`(%>%)` means and then
 ```
 ## # A tibble: 9 x 3
 ## # Groups:   Name [3]
@@ -77,7 +76,7 @@ DayToFlower %>%
 ```
 
 ```
-DayToFlower %>% spread(key = Location, value = Mean_DTF)
+DayToFlower <- DayToFlower %>% spread(key = Location, value = Mean_DTF)
 DayToFlower
 ```
 
@@ -91,7 +90,7 @@ DayToFlower
 ## 3 Laird AGL                      76.8               137.                56.8
 ```
 ```
-DayToFlower %>% gather(key = TraitName, value = Value, 2:4)
+DayToFlower<- DayToFlower %>% gather(key = TraitName, value = Value, 2:4)
 DayToFlower
 ```
 ```
@@ -109,7 +108,8 @@ DayToFlower
 ## 8 ILL 618 AGL   Saskatoon, Canada    47  
 ## 9 Laird AGL     Saskatoon, Canada    56.8
 ```
-```DayToFlower %>% spread(key = Name, value = Value)
+```
+DayToFlower <- DayToFlower %>% spread(key = Name, value = Value)
 DayToFlower
 ```
 
