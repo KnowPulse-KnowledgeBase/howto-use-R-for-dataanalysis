@@ -11,7 +11,7 @@ objectives:
 - "Export a tidy file from R"
 keypoints:
 - "Make sure you have "
-- "Exported file can be saved in different formats through the change of separator."
+- ""
 ---
 ## `Work.table` Command to export your data from R
 
@@ -49,3 +49,4 @@ write.table(yy,file="DataToExport.csv", row.names=F, sep=",")
 ```
 ![Screenshot of main code listing](../fig/Export-data-3.png)
 * The old file is overwritten by the new one, so you only get one `DataToExport.csv`. 
+* Exported file can be saved in different formats through the change of separator.
