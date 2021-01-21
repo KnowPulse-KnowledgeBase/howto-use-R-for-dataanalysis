@@ -1,18 +1,15 @@
 ---
-title: "Export data from R"
-teaching: 30
-exercises: 30
+title: "Export data"
+teaching: 20
+exercises: 20
 questions:
-- ""
-- ""
+
+- "How to export my data?"
 
 
 objectives:
-- "Export the tidy dataset "
 - ""
-
 keypoints:
-- ""
 - ""
 - ""
 ---
