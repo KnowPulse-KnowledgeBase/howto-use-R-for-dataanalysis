@@ -113,6 +113,7 @@ DayToFlower <- DayToFlower %>% spread(key = Name, value = Value)
 DayToFlower
 
 ```
+```
 ## # A tibble: 3 x 4
 ##   TraitName           `CDC Maxim AGL` `ILL 618 AGL` `Laird AGL`
 ##   <chr>                         <dbl>         <dbl>       <dbl>
