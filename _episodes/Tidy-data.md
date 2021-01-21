@@ -41,16 +41,23 @@ In the previous episode, you have learned how to import your tidy data. But most
 * arrange()
 * group by()
 
-## Example dataset: mydata
+## Example dataset: DayToFlower
 
-* Columns:  Name, Location, and Mean_DTF
-* Rows: Each row is an observation
+Data file for the lesson can be downloaded [Here](https://figshare.com/articles/dataset/DayToFlower_csv/13622831/1) manually
+
 
 ```
-mydata %>%
+DayToFlower<- read_csv("Downloads/DayToFlower.csv")
+write.csv(DayToFlower, "DayToFlower.csv", row.names = F)
+row.names = F
+View(DayToFlower)
+DayToFlower <- xx %>%
   group_by(Name, Location) %>%
-  summarise(Mean_DTF = round(mean(DTF),1)) %>% 
+  summarise(Mean_DTF = round(mean(DTF),1)) %>%
   arrange(Location)
+DayToFlower %>%
+  distinct(Name, Location, Mean_DTF)
+
 ```
 * pipes operator`(%>%)` means and then
 ```
@@ -72,7 +79,8 @@ mydata %>%
 
 ```
 ```
-mydata %>% spread(key = Location, value = Mean_DTF)
+DayToFlower %>% spread(key = Location, value = Mean_DTF)
+DayToFlower
 ```
 
 ```
@@ -82,10 +90,11 @@ mydata %>% spread(key = Location, value = Mean_DTF)
 ##   <chr>                         <dbl>              <dbl>               <dbl>
 ## 1 CDC Maxim AGL                  86.7               134.                52.5
 ## 2 ILL 618 AGL                    79.3               138.                47  
-## 3 Laird AGL     
+## 3 Laird AGL                      76.8               137.                56.8
 ```
 ```
-mydata %>% gather(key = TraitName, value = Value, 2:4)
+DayToFlower %>% gather(key = TraitName, value = Value, 2:4)
+DayToFlower
 ```
 ```
 ## # A tibble: 9 x 3
@@ -103,7 +112,8 @@ mydata %>% gather(key = TraitName, value = Value, 2:4)
 ## 9 Laird AGL     Saskatoon, Canada    56.8
 ```
 ```
-mydata %>% spread(key = Name, value = Value)
+DayToFlower %>% spread(key = Name, value = Value)
+DayToFlower
 ```
 
 ```
