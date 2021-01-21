@@ -47,16 +47,14 @@ Data file for the lesson can be downloaded [Here](https://figshare.com/articles/
 
 
 ```
-DayToFlower<- read_csv("Downloads/DayToFlower.csv")
-write.csv(DayToFlower, "DayToFlower.csv", row.names = F)
-row.names = F
-View(DayToFlower)
-DayToFlower <- xx %>%
+xx <- read_csv("Downloads/DayToFlower.csv")
+xx<-na.omit(xx)
+yy <- xx %>%
   group_by(Name, Location) %>%
-  summarise(Mean_DTF = round(mean(DTF),1)) %>%
+  summarise(Mean_DTF = round(mean(DTF),1)) %>% 
   arrange(Location)
-DayToFlower %>%
-  distinct(Name, Location, Mean_DTF)
+yy
+
 
 ```
 ```
@@ -76,8 +74,8 @@ DayToFlower %>%
 ```
 
 ```
-DayToFlower <- DayToFlower %>% spread(key = Location, value = Mean_DTF)
-DayToFlower
+yy <- yy %>% spread(key = Location, value = Mean_DTF)
+yy
 ```
 
 ```
@@ -90,8 +88,8 @@ DayToFlower
 ## 3 Laird AGL                      76.8               137.                56.8
 ```
 ```
-DayToFlower<- DayToFlower %>% gather(key = TraitName, value = Value, 2:4)
-DayToFlower
+yy <- yy %>% gather(key = TraitName, value = Value, 2:4)
+yy
 ```
 ```
 ## # A tibble: 9 x 3
@@ -109,8 +107,8 @@ DayToFlower
 ## 9 Laird AGL     Saskatoon, Canada    56.8
 ```
 ```
-DayToFlower <- DayToFlower %>% spread(key = Name, value = Value)
-DayToFlower
+yy <- yy %>% spread(key = Name, value = Value)
+yy
 
 ```
 ```
