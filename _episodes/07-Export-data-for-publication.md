@@ -37,3 +37,5 @@ yy
 write.table(yy,file="DataToExport.csv", sep=",")
 ```
 ![Screenshot of main code listing](../fig/Export-data-1.png)
+
+Now you can check your `DataToExport.csv` in Downloads
