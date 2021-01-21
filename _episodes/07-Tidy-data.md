@@ -8,15 +8,15 @@ questions:
 
 
 objectives:
-- "Install Tidyverse package to help tidy up data"
+- "Learning how to tidy your data from given examples"
 keypoints:
-- "Ensure your files contain all the required columns from template."
-- "Use the correct verbs from dplyr to rearrange you untidy data."
+- "Use the correct verb(s) to rearrange you untidy data."
+- "Use xx<-na.omit(xx) to omit NA values in your dataset."
 ---
 ## Tidy your data
-In the previous episode, you have learned how to import your tidy data. But most likely, you will have to tidy up your data after import. In this episode, we are going to learn how to tidy data. 
-
 >“Tidy datasets are all alike, but every messy dataset is messy in its own way.” –– Hadley Wickham
+In the previous lesson, you have learned how to import your tidy data. But most likely, you will have to tidy up your data after import. In this episode, we are going to learn how to tidy data. 
+
 
 ## Introduce to Tidyr Package
 
@@ -26,14 +26,14 @@ In the previous episode, you have learned how to import your tidy data. But most
 
 ## Installation
 * install.packages("tidyverse")
-* library(dplyr)
+
 
 ### tidyverse core principles:
 * Each variable forms a column.
 * Each observation forms a row.
 * Each type of observational unit forms a table.
 
-### 6 main verbs in dplyr
+### 6 main verbs
 * mutate()
 * select()
 * filter()
@@ -47,6 +47,7 @@ Data file for the lesson can be downloaded [Here](https://figshare.com/articles/
 
 
 ```
+library(tidyverse)
 xx <- read_csv("Downloads/DayToFlower.csv")
 xx<-na.omit(xx)
 yy <- xx %>%
