@@ -111,7 +111,6 @@ DayToFlower
 ```
 DayToFlower <- DayToFlower %>% spread(key = Name, value = Value)
 DayToFlower
-```
 
 ```
 ## # A tibble: 3 x 4
