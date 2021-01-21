@@ -41,7 +41,7 @@ In the previous episode, you have learned how to import your tidy data. But most
 * arrange()
 * group by()
 
-## Example dataset: DayToFlower
+## Example dataset: DayToFlower.csv
 
 Data file for the lesson can be downloaded [Here](https://figshare.com/articles/dataset/DayToFlower_csv/13622831/1) manually
 
@@ -75,9 +75,7 @@ DayToFlower %>%
 ## 8 ILL 618 AGL   Saskatoon, Canada       47  
 ## 9 Laird AGL     Saskatoon, Canada       56.8
 ```
-```
 
-```
 ```
 DayToFlower %>% spread(key = Location, value = Mean_DTF)
 DayToFlower
@@ -111,8 +109,7 @@ DayToFlower
 ## 8 ILL 618 AGL   Saskatoon, Canada    47  
 ## 9 Laird AGL     Saskatoon, Canada    56.8
 ```
-```
-DayToFlower %>% spread(key = Name, value = Value)
+```DayToFlower %>% spread(key = Name, value = Value)
 DayToFlower
 ```
 
