@@ -1,5 +1,5 @@
 ---
-title: "Data Objects and Data Formats"
+title: "Data Objects and Data Formats in R"
 teaching: 30
 exercises: 30
 questions:
