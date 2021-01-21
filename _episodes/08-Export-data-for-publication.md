@@ -4,16 +4,18 @@ teaching: 20
 exercises: 20
 questions:
 
-- "How toexport my data after tidy?"
+- "How to export my data after tidy?"
 
 
 objectives:
-- ""
+- "Export a tidy file from R"
 keypoints:
-- ""
-- ""
+- "Make sure you have "
+- "Exported file can be saved in different formats through the change of separator."
 ---
-## Work.table
+## `Work.table` Command to export your data from R
+
+### We are aiming to output the `.csv` file we have tidied from last episode.
 
 ```
 #Save the exported file in Downloads
@@ -38,4 +40,12 @@ write.table(yy,file="DataToExport.csv", sep=",")
 ```
 ![Screenshot of main code listing](../fig/Export-data-1.png)
 
-Now your `DataToExport.csv` is saved in Downloads.
+## Now your `DataToExport.csv` is saved in Downloads.
+![Screenshot of main code listing](../fig/Export-data-2.png)
+
+## To remove row name
+```
+write.table(yy,file="DataToExport.csv", row.names=F, sep=",")
+```
+![Screenshot of main code listing](../fig/Export-data-3.png)
+* The old file is overwritten by the new one, so you only get one `DataToExport.csv`. 
