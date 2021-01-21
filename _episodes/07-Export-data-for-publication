@@ -1,5 +1,5 @@
 ---
-title: "Export data for publication"
+title: "Export data from R"
 teaching: 30
 exercises: 30
 questions:
@@ -17,3 +17,23 @@ keypoints:
 - ""
 ---
 
+```
+setwd("Downloads")
+
+xx <- read_csv("Downloads/DayToFlower.csv")
+xx <- read_xlsx("Downloads/DayToFlower.xlsx", sheet = "DayToFlower")
+xx<-na.omit(xx)
+yy <- xx %>%
+  group_by(Name, Location) %>%
+  summarise(Mean_DTF = round(mean(DTF),1)) %>% 
+  arrange(Location)
+yy
+
+yy <- yy %>% spread(key = Location, value = Mean_DTF)
+yy
+yy <- yy %>% gather(key = TraitName, value = Value, 2:4)
+yy
+yy <- yy %>% spread(key = Name, value = Value)
+yy
+write.table(yy,file="DataToExport.csv", sep=",")
+```
