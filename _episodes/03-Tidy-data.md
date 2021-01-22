@@ -15,7 +15,7 @@ keypoints:
 ---
 ## Tidy your data
 >“Tidy datasets are all alike, but every messy dataset is messy in its own way.” –– Hadley Wickham
-In the previous lesson, you have learned how to import your tidy data. But most likely, you will have to tidy up your data after import. In this episode, we are going to learn how to tidy data. 
+In the previous lesson, you have learned how to import your raw data files into R. But most likely, you will have to tidy up your data after import. In this episode, we are going to learn how to tidy data. 
 
 
 ## Introduce to Tidyr Package
