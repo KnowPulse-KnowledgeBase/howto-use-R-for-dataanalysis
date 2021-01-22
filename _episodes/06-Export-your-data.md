@@ -10,9 +10,8 @@ questions:
 objectives:
 - "Export a tidy file from R"
 keypoints:
-- "Make sure you have "
-- ""
----
+- "Make sure you have your exported file store in the correct directory."
+
 ## `Work.table` Command to export your data from R
 
 Usefully resource:
