@@ -6,11 +6,6 @@ questions:
 - "How to export my tidy file?"
 
 objectives:
-- "Export your file from R."
-keypoints:
-- "Make sure you download and use the standard data collection template for your data."
-
-objectives:
 - "Export a tidy file from R"
 keypoints:
 - "Make sure to indicate where you would like to see the exported file."
