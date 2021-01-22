@@ -10,9 +10,6 @@ objectives:
 keypoints:
 - "Make sure you download and use the standard data collection template for your data."
 
-
----
-
 objectives:
 - "Export a tidy file from R"
 keypoints:
