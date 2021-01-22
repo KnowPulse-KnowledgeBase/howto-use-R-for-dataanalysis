@@ -1,5 +1,5 @@
 ---
-title: "Export yout data from R"
+title: "Export your data from R"
 teaching: 20
 exercises: 20
 questions:
