@@ -6,10 +6,10 @@ questions:
 - "How to plot data with ggplot2?"
 
 objectives:
-- "Providing a step by step demonstration on how to visuallize your data with ggplot2."
+- "Visuallize your data with ggplot2."
 keypoints:
 - "Remember to load your ggplot2 library before writing your code"
-- ""
+- "Find the best graph meets your need"
 - ""
 
 ---
@@ -22,7 +22,7 @@ click on `Packages` tab, select on `Install`, then search `ggplo2` under Package
 
 ![Screenshot of main code listing](../fig/Visualize-your-data-16.png)
 
-* ggplot2 is one of the core packeages from `Tidyverse`, so you may already downloaded it from previous episode.
+* ggplot2 is one of the core packeages from `Tidyverse`, so you may already downloaded it from previous lesson.
 
 ### Usefull Resources
 * [Data Visualization with ggplot2 Cheat Sheet](https://rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
