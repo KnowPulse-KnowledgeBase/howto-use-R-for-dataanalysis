@@ -3,13 +3,12 @@ layout: page
 title: "Reference"
 ---
 
--[R Tutorial Vignette](https://derekmichaelwright.github.io/htmls/academic/r_tutorial.html#content)
--[Environmental Data Vignette](https://derekmichaelwright.github.io/htmls/academic/envdata.html#introduction)
+This tutorial is inspired by the following two Vignette, which written by [Derek Michael Wright](www.dblogr.com/) 
 
-### Data Visualization additional help
+[R Tutorial Vignette](https://derekmichaelwright.github.io/htmls/academic/r_tutorial.html#content)
+[Environmental Data Vignette](https://derekmichaelwright.github.io/htmls/academic/envdata.html#introduction)
 
-The following materials are great if you want to learn more about data visualization
-* [Data Visualization with ggplot2 Cheat Sheet](https://rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
-* https://ggplot2.tidyverse.org/
-* https://www.r-graph-gallery.com/ggplot2-package.html
-* http://r-statistics.co/ggplot2-Tutorial-With-R.html
+### R programming additional help
+
+[R Programming Tutorial](https://www.youtube.com/watch?v=_V8eKsto3Ug)
+
