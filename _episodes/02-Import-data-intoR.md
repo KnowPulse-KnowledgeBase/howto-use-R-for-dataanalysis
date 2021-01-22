@@ -3,16 +3,18 @@ title: "Import data into R"
 teaching: 20
 exercises: 20
 questions:
-- "How to import my raw phenotypic data into RStudio?"
+- "How to get my raw phenotypic data into R?"
+
+
 
 
 objectives:
-- "Providing a step by step demonstration on how to import your .csv file to RStudio with the Url of a file."
-- "Providing a step by step demonstration on how to import your .csv file to RStudio through the use of code."
+- "Import your .csv file to RStudio with its Url"
+- "Import your .csv file to RStudio with command."
 
 
 keypoints:
-- "Ensure your files is saved as .csv before you import it into RStudio ."
+- "Ensure your file is saved as .csv before it goes into RStudio."
 ---
 
 # Two options to let RStudio read your data
