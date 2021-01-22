@@ -15,7 +15,8 @@ keypoints:
 ---
 ## `Work.table` Command to export your data from R
 
-[Usefully resource](https://www.youtube.com/watch?v=WjpcbmcJjjM)
+Usefully resource:
+[Export Data from R (csv , txt and other formats)](https://www.youtube.com/watch?v=WjpcbmcJjjM)
 ### We are aiming to output the `.csv` file we have tidied from last episode.
 
 ```
