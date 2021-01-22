@@ -1,5 +1,5 @@
 ---
-title: "Tidy data"
+title: "Tidy data with R"
 teaching: 20
 exercises: 20
 questions:
