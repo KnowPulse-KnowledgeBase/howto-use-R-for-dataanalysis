@@ -3,13 +3,13 @@ title: "Import data into R"
 teaching: 20
 exercises: 20
 questions:
-- "How to get my raw phenotypic data into R?"
+- "How to get my data file into R?"
 
 
 
 
 objectives:
-- "Import your .csv file to RStudio with its Url"
+- "Import your .csv file to RStudio with its Url."
 - "Import your .csv file to RStudio with command."
 
 
