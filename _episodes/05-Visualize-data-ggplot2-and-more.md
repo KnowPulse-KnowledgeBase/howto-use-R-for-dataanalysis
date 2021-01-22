@@ -29,6 +29,7 @@ click on `Packages` tab, select on `Install`, then search `ggplo2` under Package
 * [ggplot2 part of the tidyverse](https://ggplot2.tidyverse.org/)
 * [ggplot2](https://www.r-graph-gallery.com/ggplot2-package.html)
 * [How to make any plot in ggplot2?](http://r-statistics.co/ggplot2-Tutorial-With-R.html)
+* [Graphics in R with ggplot2](https://www.statsandr.com/blog/graphics-in-r-with-ggplot2/)
 
 ## Points
 ```
@@ -41,8 +42,7 @@ mp + geom_point()
 ```
 mp + geom_point(aes(color = x3, shape = x3), size = 4)
 ```
-(https://www.statsandr.com/blog/graphics-in-r-with-ggplot2/)
-(https://derekmichaelwright.github.io/htmls/academic/envdata.html#)
+
  
  
 ![Screenshot of main code listing](../fig/Visualize-your-data-18.png)
