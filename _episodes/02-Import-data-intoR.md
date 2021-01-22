@@ -20,7 +20,7 @@ keypoints:
 # Two options to let RStudio read your data
 After the growing season, you have your data downloaded from KnowPulse in a comma separated value `.csv` format file. In the next step, you want to import your `.csv file` into Rstudio for further analysis. 
 
-* RStudio can read files in various format, check [Importing Data with RStudio](https://support.rstudio.com/hc/en-us/articles/218611977-Importing-Data-with-RStudio) for details. 
+### RStudio can read files in various format, check [Importing Data with RStudio](https://support.rstudio.com/hc/en-us/articles/218611977-Importing-Data-with-RStudio) for details. 
 
 ## Option 1: Import your `.csv file` with its path
 
