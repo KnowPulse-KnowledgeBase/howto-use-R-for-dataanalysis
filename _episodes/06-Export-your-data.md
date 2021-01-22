@@ -1,9 +1,8 @@
 ---
-title: "Export your data"
+title: "Export your data from R"
 teaching: 20
 exercises: 20
 questions:
-
 - "How to export my data after tidy?"
 
 
