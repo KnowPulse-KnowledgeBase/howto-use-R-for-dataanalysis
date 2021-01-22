@@ -43,7 +43,7 @@ In the previous lesson, you have learned how to import your raw data files into 
 
 ## Example dataset: DayToFlower.csv
 
-Data file for the lesson can be downloaded [Here](https://figshare.com/articles/dataset/DayToFlower_csv/13622831/1) manually
+Dataset for this lesson can be downloaded from [Here](https://figshare.com/articles/dataset/DayToFlower_csv/13622831/1) manually
 
 
 ```
