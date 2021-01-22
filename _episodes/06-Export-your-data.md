@@ -1,15 +1,24 @@
 ---
-title: "Export your data from R"
+title: "Export yout data from R"
 teaching: 20
 exercises: 20
 questions:
-- "How to export my data after tidy?"
+- "How to export my tidy file?"
 
+objectives:
+- "Export your file from R."
+keypoints:
+- "Make sure you download and use the standard data collection template for your data."
+
+
+---
 
 objectives:
 - "Export a tidy file from R"
 keypoints:
 - "Make sure you have your exported file store in the correct directory."
+- "Set row.names=F to remove unwanted row names while exporting your file."
+
 ---
 
 ## `Work.table` Command to export your data from R
@@ -50,4 +59,4 @@ write.table(yy,file="DataToExport.csv", row.names=F, sep=",")
 ```
 ![Screenshot of main code listing](../fig/Export-data-3.png)
 * The old file is overwritten by the new one, so you only get one `DataToExport.csv`. 
-* Exported file can be saved in different formats through the change of separator.
+* Exported file can be saved in different formats through change of the separator.
