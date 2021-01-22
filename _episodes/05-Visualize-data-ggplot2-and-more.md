@@ -10,7 +10,7 @@ objectives:
 keypoints:
 - "Remember to load your ggplot2 library before writing your code"
 - "Find the best graph meets your need"
-- ""
+
 
 ---
 
