@@ -1,7 +1,7 @@
 ---
 title: "Visualize data in R: ggplot2 package and more"
 teaching: 20
-exercises: 20
+exercises: 30
 questions:
 - "How to plot data with ggplot2?"
 
@@ -26,9 +26,9 @@ click on `Packages` tab, select on `Install`, then search `ggplo2` under Package
 
 ### Usefull Resources
 * [Data Visualization with ggplot2 Cheat Sheet](https://rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
-* https://ggplot2.tidyverse.org/
-* https://www.r-graph-gallery.com/ggplot2-package.html
-* http://r-statistics.co/ggplot2-Tutorial-With-R.html
+* [ggplot2 part of the tidyverse](https://ggplot2.tidyverse.org/)
+* [ggplot2](https://www.r-graph-gallery.com/ggplot2-package.html)
+* [How to make any plot in ggplot2?](http://r-statistics.co/ggplot2-Tutorial-With-R.html)
 
 ## Points
 ```
