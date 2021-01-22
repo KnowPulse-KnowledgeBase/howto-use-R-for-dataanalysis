@@ -10,6 +10,7 @@ objectives:
 keypoints:
 - "Customize your graphs to make them more visually appealling. "
 
+
 ---
 
 ## Basic Grahics
