@@ -3,22 +3,21 @@ title: "Tidy data"
 teaching: 20
 exercises: 20
 questions:
-
 - "How to tidy my data after import?"
 
 
 objectives:
-- "Learning how to tidy your data from given examples"
+- "Tidy your data for further analysis"
 keypoints:
-- "Use the correct verb(s) to rearrange you untidy data."
-- "Use xx<-na.omit(xx) to omit NA values in your dataset."
+- "Use the correct verb(s) to rearrange your raw data."
+- "Use xx<-na.omit(xx) command to omit NA values in your raw dataset."
 ---
 ## Tidy your data
 >“Tidy datasets are all alike, but every messy dataset is messy in its own way.” –– Hadley Wickham
 In the previous lesson, you have learned how to import your raw data files into R. But most likely, you will have to tidy up your data after import. In this episode, we are going to learn how to tidy data. 
 
 
-## Introduce to Tidyr Package
+## Tidyr Package
 
 *  [Tidy data---R for Data Science ](https://r4ds.had.co.nz/tidy-data.html)
 *  [Tidy data---CRAN ](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html)
@@ -43,7 +42,7 @@ In the previous lesson, you have learned how to import your raw data files into 
 
 ## Example dataset: DayToFlower.csv
 
-Dataset for this lesson can be downloaded from [Here](https://figshare.com/articles/dataset/DayToFlower_csv/13622831/1) manually
+`DayToFlower.csv` can be downloaded manually from [Here](https://figshare.com/articles/dataset/DayToFlower_csv/13622831/1) 
 
 
 ```
