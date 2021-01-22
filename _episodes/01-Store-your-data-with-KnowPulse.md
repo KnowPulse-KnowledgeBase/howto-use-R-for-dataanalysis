@@ -6,16 +6,16 @@ questions:
 - "How do I store my raw phenotypic data in KnowPulse?"
 
 objectives:
-- "Providing a step by step demonstration on how users can store their raw phenotypic data in KnowPulse over a growing season."
+- "Backup your raw phenotypic data to KnowPulse."
 keypoints:
 - "Make sure you download and use the standard data collection template for your data."
 - "Remember to backup your data with KnowPulse regularly during the growing season."
-- "Donnot forget to download your data files with an R-friendly header."
+- "Download your data files with an R-friendly header."
 
 ---
 
 ## Welcome to KnowPulse
-KnowPulse can be used to store your raw phenotypic data; we highly recommend backing up your data regularly with KnowPulse during the growing season.
+KnowPulse can be used to store your raw phenotypic data; we highly recommend backing up your data regularly in KnowPulse during the growing season.
 
 ## Upload your data files 
 Scroll down to the Data section, in the Phenotypic Data box, there are [Video Demonstrations](https://knowpulse.usask.ca/node/1772530) to guide you for data upload.
