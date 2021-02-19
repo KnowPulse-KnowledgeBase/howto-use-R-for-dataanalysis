@@ -11,8 +11,8 @@ objectives:
 keypoints:
 - "Customize your graphs to make them more visually appealling. "
 
-
 ---
+
 ```{r, include=FALSE}
 source("../bin/chunk-options.R")
 knitr_fig_path("04-")
