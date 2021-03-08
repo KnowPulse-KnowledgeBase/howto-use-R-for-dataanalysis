@@ -24,7 +24,7 @@ click on `Packages` tab, select on `Install`, then search `ggplo2` under Package
 
 * ggplot2 is one of the core packeages from `Tidyverse`, so you may already downloaded it from previous lesson.
 
-### Usefull Resources
+### Useful Resources
 * [Data Visualization with ggplot2 Cheat Sheet](https://rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
 * [ggplot2 part of the tidyverse](https://ggplot2.tidyverse.org/)
 * [ggplot2](https://www.r-graph-gallery.com/ggplot2-package.html)
