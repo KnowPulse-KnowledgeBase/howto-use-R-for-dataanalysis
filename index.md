@@ -22,10 +22,10 @@ why: "How to manipulate and plot the collected environmental data."
 # A short list of items researchers will learn in this lesson.
 learn:
 - "How to download, install R and RStudio?"
-- "How to backup and download collected phenotypic from KnowPulse? "
-- "How to import data files into R?"
-- "How to visualize your data with R?"
-- "How to export your data from R?"
+- "How to backup and download collected phenotypic from KnowPulse"
+- "How to import data files into R"
+- "How to visualize your data with R"
+- "How to export your data from R"
 
 data-description: "Phenotypic Data."
 ---
